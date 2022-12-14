@@ -41,7 +41,7 @@ public class AlphabetToNumber {
 
         return String.valueOf((char)(letterNumber+offset));
     }
-    static String getLetterNumberStr(int letterNumber){
+    static String getLetterNumberStr(int letterNumber) {
         String letterNumberStr="";
         if(letterNumber<10){
             letterNumberStr="0"+letterNumber;
@@ -51,7 +51,7 @@ public class AlphabetToNumber {
         return letterNumberStr;
     }
 
-    static void testAPIEndPoint(){
+    static void testAPIEndPoint() {
         StringBuilder letters=new StringBuilder();
         StringBuilder letterNumbers=new StringBuilder();
         for (int i = 0; i < 10000; i++) {
